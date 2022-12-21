@@ -52,7 +52,7 @@ void Sap_Xep_Tang_Dan(int a[], int n)
 	// vong lap for duyet tung phan tu cua mang : 0 -> n - 1
 	for (int i = 0; i < n; i++)
 	{
-		// vòng lap duyet tu vi tri i + 1 tro ve cuoi mang : n - 1
+		// vÃ²ng lap duyet tu vi tri i + 1 tro ve cuoi mang : n - 1
 		for (int j = i + 1; j < n; j++)
 		{
 			// neu phat hien thang ben trai ma lon hon thang ben phai thi lap tuc hoan vi - doi cho 2 thang cho nhau
@@ -69,7 +69,7 @@ void Sap_Xep_Giam_Dan(int a[], int n)
 	// vong lap for duyet tung phan tu cua mang : 0 -> n - 1
 	for (int i = 0; i < n; i++)
 	{
-		// vòng lap duyet tu vi tri i + 1 tro ve cuoi mang : n - 1
+		// vÃ²ng lap duyet tu vi tri i + 1 tro ve cuoi mang : n - 1
 		for (int j = i + 1; j < n; j++)
 		{
 			// neu phat hien thang ben trai ma nho hon thang ben phai thi lap tuc hoan vi - doi cho 2 thang cho nhau
@@ -88,28 +88,6 @@ int main() {
 	int option;
 	do
 	{
-//Password
-	cout << "</>Nguyen Duy An</>\n\n";
-	string pass = "duyan";
-    string input;
-    cout << "Nhap mat khau: ";
-    int limit =0;
-    while (limit < 9999999)
-    {
-    cin >> input;
-        system ("cls");
-    if (input==pass){
-    	cout << "</>Nguyen Duy An</>\n\n";
-        cout << "Mat khau dung ^-^" << endl;
-        Sleep (3000);
-        system ("cls");
-        break;
-    }else{
-    	cout << "</>Nguyen Duy An</>\n\n";
-        cout << "Mat Khau sai -.-* vui long nhap lai: ";
-        limit++;
-    }
-}
 
   cout << "********************MENU********************\n";
         cout << "** 1. Nhap mang.                          **\n";
